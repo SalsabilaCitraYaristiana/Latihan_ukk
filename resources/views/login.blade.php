@@ -27,7 +27,7 @@
                     <label>Password</label>
                     <input type="password" name="password" class="form-control" placeholder="Password" required="">
                 </div>
-                <button type="submit" class="btn btn-primary btn-block">Log In</button>
+                <button type="submit" class="btn btn-primary btn-block">Login <a href="{{route('dashboard')}}"></a></button>
                 <hr>
                 <p class="text-center">Belum punya akun? <a href="{{route('register')}}">Register</a> sekarang!</p>
             </form>
